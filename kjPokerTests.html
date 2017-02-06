@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="js/jquery.js"></script>
+<link rel="stylesheet" href="css/qunit.css" type="text/css" media="screen" />
+<script src="js/qunit.js"></script>
+
+<script src="js/json2.js"></script>
+
+<!-- Run tests for the kjPoker.js module -->
+<script src="js/kjUtil-min.js"></script>
+<script src="js/kjPoker-min.js"></script>
+<script src="js/kjPokerUI-min.js"></script>
+<script src="js/kjPokerTests.js"></script>
+<script src="js/kjPokerUITests.js"></script>
+
+<script>
+$(document).ready(function(){
+    kjPoker.runUITests();
+    kjPoker.runTests();
+});
+</script>
+  
+</head>
+<body>
+<h1 id="qunit-header">Poker Module Tests</h1>
+<h2 id="qunit-banner"></h2>
+<h2 id="qunit-userAgent"></h2>
+<ol id="qunit-tests"></ol>
+</body>
+</html>

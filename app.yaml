@@ -1,0 +1,45 @@
+application: jacksorbetterpoker
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+
+- url: /kjPoker.html
+  static_files: kjPoker.html
+  upload: kjPoker.html
+
+- url: /favicon.ico
+  static_files: favicon.ico
+  upload: favicon.ico
+
+- url: /favicon.png
+  static_files: favicon.png
+  upload: favicon.png
+
+- url: /css
+  static_dir: css
+
+- url: /images
+  static_dir: images
+
+- url: /js
+  static_dir: js
+
+- url: /apple-touch-icon.png
+  static_files: apple-touch-icon.png
+  upload: apple-touch-icon.png
+
+- url: /kjPoker.manifest
+  static_files: kjPoker.manifest
+  mime_type: text/cache-manifest
+  upload: kjPoker.manifest
+
+- url: /robots.txt
+  static_files: robots.txt
+  upload: robots.txt
+
+- url: /
+  static_files: kjPoker.html
+  upload: kjPoker.html
+

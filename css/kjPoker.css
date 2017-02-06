@@ -1,0 +1,162 @@
+/*
+  JacksOrBetter poker game
+  Copyright 2010 Kristopher Johnson
+*/
+
+html {
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: #030;
+    -webkit-user-select: none;
+}
+
+
+/* Colors */
+
+body {
+    background: #101;
+}
+
+body, a {
+    color: #cfc;
+}
+
+div#creditsvalue, .payout, #upperstatusline {
+    color: #ff3;
+}
+
+.hold {
+    color: #fc9;
+}
+
+a.button {
+    color: #060;
+    background: #fff;
+    border-color: #010;
+}
+
+div#extent {
+    background: #030;
+}
+
+
+
+body {
+    font-family: "Trebuchet MS", "Liberation Sans", Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+}
+
+p {
+    padding: 2px 0px;
+}
+
+div#creditsdisplay, div#button {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+div#handdisplay, div#footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+div#extent {
+    width: 320px;
+    height: 460px;
+    margin: 0px auto;
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+}
+
+div#container {
+    width: 300px;
+    margin: 0px 10px;
+}
+
+div#creditsdisplay {
+    padding: 10px 0px 30px 0px;
+}
+
+div#creditslabel {
+    float: left;
+    width: 208px;
+    text-align: right;
+}
+
+div#creditsvalue {
+    float: left;
+    font-weight: bold;
+    text-align: left;
+}
+
+.payout {
+    font-weight: bold;
+}
+
+div#handdisplay {
+    clear: both;
+    padding: 6px 0px;
+}
+
+div.cardcolumn {
+    float: left;
+    width: 60px;
+    height: 100px;
+}
+
+.hold {
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+img.card {
+    width: 58px;
+    height: 80px;
+    -webkit-border-radius: 10px;
+    -webkit-box-shadow: 0px 2px 2px #030;
+    cursor: pointer;
+}
+
+div#statusdisplay {
+    clear: both;
+    padding: 16px;
+}
+
+#upperstatusline {
+    font-weight: bold;
+}
+
+div#button {
+    padding: 10px 0px 20px 0px;
+}
+
+a.button {
+    border-style: solid;
+    border-width: thin;
+    padding: 8px 44px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-border-radius: 8px;
+    -webkit-box-shadow: 0px 2px 2px #030;
+}
+
+a.button:hover {
+    text-decoration: none;
+}
+
+a.button:active {
+}
+
+div#footer {
+    padding: 10px 0px;
+    font-size: 12px;
+}
+

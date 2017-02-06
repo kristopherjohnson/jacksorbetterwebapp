@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html manifest="kjPoker.manifest">
+  <head>
+    <!--
+       JacksOrBetter poker game
+       Copyright 2010 Kristopher Johnson
+      -->
+
+    <title>Jacks or Better Poker</title>
+
+    <meta name="viewport" content="user-scalable=no, width=device-width">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="apple-touch-startup-image" href="images/background.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="SHORTCUT ICON" href="favicon.ico">
+
+    <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/kjPoker.css" type="text/css" media="screen">
+
+    <script src="js/jquery.js"></script>
+    <script src="js/json2.js"></script>
+    <script src="js/kjUtil.js"></script>
+    <script src="js/kjPoker.js"></script>
+    <script src="js/kjPokerUI.js"></script>
+  </head>
+  <body>
+    <div id="extent">
+      <div id="container">
+        <div id="creditsdisplay">
+          <div id="creditslabel"><p>Credits Remaining:&nbsp;</p></div>
+          <div id="creditsvalue"><p id="credits">100</p></div>
+        </div>
+        <div id="handdisplay">
+          <div class="cardcolumn">
+            <p id="hold0" class="hold">&nbsp;</p>
+            <img id="card0" class="card" src="images/card/ad.png">
+          </div>
+          <div class="cardcolumn">
+            <p id="hold1" class="hold">&nbsp;</p>
+            <img id="card1" class="card" src="images/card/as.png">
+          </div>
+          <div class="cardcolumn">
+            <p id="hold2" class="hold">&nbsp;</p>
+            <img id="card2" class="card" src="images/card/jr.png">
+          </div>
+          <div class="cardcolumn">
+            <p id="hold3" class="hold">&nbsp;</p>
+            <img id="card3" class="card" src="images/card/ac.png">
+          </div>
+          <div class="cardcolumn">
+            <p id="hold4" class="hold">&nbsp;</p>
+            <img id="card4" class="card" src="images/card/ah.png">
+          </div>
+        </div>
+        <div id="statusdisplay">
+          <p id="upperstatusline" class="status">Jacks or Better Poker</p>
+          <p id="middlestatusline" class="status">You start with 100 credits</p>
+          <p id="lowerstatusline" class="status">Tap the Deal button to begin</p>
+        </div>
+        <div id="button">
+          <p>
+            <a id="dealdrawbutton" class="button">Deal</a>
+          </p>
+        </div>
+        <div id="footer">
+          <p>&copy; 2010 Kristopher Johnson</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

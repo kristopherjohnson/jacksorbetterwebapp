@@ -1,0 +1,1 @@
+(function(){function f(a){console&&console.log&&console.log(a)}function g(a){function b(){}b.prototype=a;return new b}function h(a,b,d){var i=a.length,c,e;if(typeof d==="undefined")d=null;for(c=0;c<i;++c){e=a[c];if(b(e))return e}return d}this.kjUtil={log:f,newObjectWithPrototype:g,findElement:h}})();
